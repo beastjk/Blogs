@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+
+    <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,700,700i,900,900i" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <!-- <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/magnific-popup/magnific-popup.css" rel="stylesheet">
+  <link href="lib/hover/hover.min.css" rel="stylesheet">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- Responsive css -->
+  <link href="css/responsive.css" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/logo1.jpg">
+</head>
+<body>
+    
+    <!-- start section navbar -->
+    <nav id = "main-nav">
+        <div class="row">
+            <div class="container">
+                <div class="responsive"><i data-icon="m" class="ion-navicon-round"></i></div>             
+                <ul class="nav-menu list-unstyled">
+                    <li><a href="#header" class="smoothscroll">Home</a></li>
+                    <li><a href="#about" class="smoothscroll">About</a></li>
+                    <li><a href="#portfolio" class="smoothscroll">Portfolio</a></li>
+                    <li><a href="blog.html" class="smoothscroll" target="_">Blog</a></li>
+                    <li><a href = "#read" class = "smoothscroll" >Read</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--End section Navbar-->
+
+    <!---Dark Mode Switch----->
+
+    
+
+    <!--start section header-->
+    <div id="header" class="home">
+        <div class="container">
+            <div class="header-content">
+              <!-- <div class="switch">Dark Mode:
+                <span class="inner-switch">OFF</span>
+              </div> -->
+                <h3>I'm <span class="typed"></span></h3>
+                <p>Gamer, Developer, Learner, Traveller</p>
+                <ul class="list-unstyled list-social">
+                    <li><a href="#"><i class="ion-social-facebook"></i></a></li>
+                    <li><a href="https://twitter.com/jay__patell?ref_src=twsrc%5Etfw" target="_blank"><i class="ion-social-twitter"></i></a></li>
+                    <li><a href="#"><i class="ion-social-instagram"></i></a></li>
+                    <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
+                    <li><a href="#"><i class="ion-social-tumblr"></i></a></li>
+                    <li><a href="#"><i class="ion-social-dribbble"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- End section header -->
+
+
+    <!-- start section about us -->
+    <div id = "about" class="paddsection">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-lg-4">
+                    <!-- <div class="div-img-bg"> -->
+                        <div class="card">
+                            <div class="front">
+                                <div class="about-img">
+                                    <img src="images/me2.JPG" alt="">
+                                </div>
+                            </div>
+                            <div class="back">
+                                <div class="details">
+                                    <h2 style="padding-left: 30px;">Jay Patel<br><span>Pubg Specialist</span></h2>
+                                    <div class="social-icons" style="padding-left: 30px; font-size: 25px;">
+                                        <a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                                        <a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+                                        <a href="#"><i class="fa fa-google-plus-square" aria-hidden="true"></i></a>
+                                        <a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                                        <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="about-img">
+                            <img src="images/me2.JPG" alt="me" class="img-responsive">
+                        </div> -->
+                    <!-- </div> -->
+                </div>
+                <div class="col-lg-7">
+                    <div class="about-descr">
+                      <blockquote class="blockquote-reverse">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur maxime nemo dolorum, praesentium, quos inventore doloribus, porro nam possimus debitis dicta nesciunt deserunt quis beatae autem deleniti natus nulla tempore.</p>
+                        <dd>- Jay Patel</dd>
+                      </blockquote>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end section about us -->
+
+    <!-- start section Portfolio -->
+
+    <div id="portfolio" class="text-center paddsection">
+        <div class="container">
+            <div class="section-title text-center">
+                <h2>My Portfolio</h2>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+      
+                <div class="portfolio-list">
+      
+                  <ul class="nav list-unstyled" id="portfolio-flters">
+                    <li class="filter filter-active" data-filter=".all">all</li>
+                    <li class="filter" data-filter=".travel">Traveller</li>
+                    <li class="filter" data-filter=".gamer">Gamer</li>
+                    <li class="filter" data-filter=".webdesign">Web Design</li>
+                    <li class="filter" data-filter=".hobby4">Hobby 4</li>
+                    <li class="filter" data-filter=".hobby5">Hobby 5</li>
+                  </ul>
+      
+                </div>
+      
+                <div class="portfolio-container">
+      
+                  <div class="col-lg-4 col-md-6 portfolio-thumbnail all travel hobby5 webdesign">
+                    <a class="popup-img" href="images/portfolio/img1.JPG">
+                      <img src="images/portfolio/img1.jpg" alt="img" style="border-radius: 25px;">
+                    </a>
+                  </div>    
+      
+                  <div class="col-lg-4 col-md-6 portfolio-thumbnail all gamer hobby4 photography">
+                    <a class="popup-img" href="images/portfolio/img4.JPG">
+                      <img src="images/portfolio/img4.jpg" class="img-circle" alt="img">
+                    </a>
+                  </div>
+      
+                  <div class="col-lg-4 col-md-6 portfolio-thumbnail all travel webdesign hobby5">
+                    <a class="popup-img" href="images/portfolio/img3.jpg">
+                      <img src="images/portfolio/img3.jpg" style="border-radius: 25px;" alt="img">
+                    </a>
+                  </div>
+      
+                  <div class="col-lg-4 col-md-6 portfolio-thumbnail all gamer webdesign hobby5">
+                    <a class="popup-img" href="images/portfolio/img5.JPG">
+                      <img src="images/portfolio/img5.JPG" style="border-radius: 25px;" alt="img">
+                    </a>
+                  </div>
+      
+                  <div class="col-lg-4 col-md-6 portfolio-thumbnail all travel hobby4 photography">
+                    <a class="popup-img" href="images/portfolio/img2.jpg">
+                      <img src="images/portfolio/img2.jpg" class="img-circle" alt="img">
+                    </a>
+                  </div>
+      
+                  <div class="col-lg-4 col-md-6 portfolio-thumbnail all gamer hobby4 webdesign">
+                    <a class="popup-img" href="images/portfolio/img8.jpg">
+                      <img src="images/portfolio/img8.jpg" style="border-radius: 25px;" alt="img">
+                    </a>
+                  </div>
+      
+                </div>
+              </div>
+            </div>
+          </div>
+  </div>
+    <!-- End section portfolio -->
+
+  <!----Read section-->
+  <div id ="read">
+        <div class="container-fluid">
+              <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                      <div class="card">
+                        <div class="imgBx">
+                          <img src="images/design.png" alt="" srcset="">
+                        </div>
+                        <div class="contentBx">
+                          <h2>Design</h2>
+                          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. A repellat pariatur neque necessitatibus ex facere numquam, ducimus error laboriosam harum cum quos maxime, perspiciatis iusto sequi illo eum autem impedit.</p>
+                          <a href="#"><span>Read More</span></a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                      <div class="card">
+                        <div class="imgBx">
+                          <img src="images/code.png" alt="" srcset="">
+                        </div>
+                        <div class="contentBx">
+                          <h2>Code</h2>
+                          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. A repellat pariatur neque necessitatibus ex facere numquam, ducimus error laboriosam harum cum quos maxime, perspiciatis iusto sequi illo eum autem impedit.</p>
+                          <a href="#"><span>Read More</span></a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                      <div class="card">
+                        <div class="imgBx">
+                          <img src="images/launch.png" alt="" srcset="">
+                        </div>
+                        <div class="contentBx">
+                          <h2>Launch</h2>
+                          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. A repellat pariatur neque necessitatibus ex facere numquam, ducimus error laboriosam harum cum quos maxime, perspiciatis iusto sequi illo eum autem impedit.</p>
+                          <a href="#"><span>Read More</span></a>
+                        </div>
+                      </div>
+                    </div>
+
+              </div>
+        </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+  <!-- start section footer -->
+  <div id="footer" class="text-center">
+    <div class="container">
+      <div class="socials-media text-center">
+
+        <ul class="list-unstyled">
+          <li><a href="#"><i class="ion-social-facebook"></i></a></li>
+          <li><a href="https://twitter.com/jay__patell?ref_src=twsrc%5Etfw" target="_blank"><i class="ion-social-twitter"></i></a></li>
+          <li><a href="#"><i class="ion-social-instagram"></i></a></li>
+          <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
+          <li><a href="#"><i class="ion-social-tumblr"></i></a></li>
+          <li><a href="#"><i class="ion-social-dribbble"></i></a></li>
+        </ul>
+
+      </div>
+
+      <p>&copy; Copyrights. All rights reserved.</p>
+    </div>
+  </div>
+  <!-- End section footer -->
+
+    <!-- JavaScript Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/typed/typed.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/magnific-popup/magnific-popup.min.js"></script>
+  <script src="lib/isotope/isotope.pkgd.min.js"></script>
+  
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script> 
+    <!-- Template Main Javascript File -->
+    <script src="js/main.js"></script>
+    <!------Dark Mode--------->
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.6/lib/darkmode-js.min.js"></script>
+
+</body>
+</html>

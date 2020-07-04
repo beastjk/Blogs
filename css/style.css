@@ -1,0 +1,778 @@
+  @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:400, 700');
+  @import url(https://allfont.net/allfont.css?fonts=anime-ace-20-bb);
+@import url(https://allfont.net/allfont.css?fonts=anime-ace);
+
+/*  General Styling
+/*-----------------------------------------------------------------------------------*/
+
+body{
+    background: white;
+    color: #898989;
+    font-family: 'Anime Ace 2.0 BB', helvetica;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    overflow-x: hidden;
+    margin: 0 auto;
+    padding: 0;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+h2{
+    color: burlywood;
+    font-weight: 200;
+}
+
+a{
+    color: #292929;
+    text-decoration: none !important;
+    -moz-transition: all 0.5s ease-in-out 0s;
+    -ms-transition: all 0.5s ease-in-out 0s;
+    -o-transition: all 0.5s ease-in-out 0s;
+    -webkit-transition: all 0.5s ease-in-out 0s;
+    transition: all 0.5s ease-in-out 0s;
+}
+
+a:hover {
+  -moz-transition: all 0.5s ease-in-out 0s;
+  -ms-transition: all 0.5s ease-in-out 0s;
+  -o-transition: all 0.5s ease-in-out 0s;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+a:hover, a:focus {
+    color: #b8a07e;
+    text-decoration: underline;
+  }
+
+nav ul li a {
+padding: 2px 0 0 0;
+position: relative;
+display: block;
+font-size: 12px;
+color: #999999;
+letter-spacing: 0.1em;
+font-weight: 500;
+line-height: 14px;
+text-transform: uppercase;
+-moz-transition: all 0.5s ease-in-out 0s;
+  -ms-transition: all 0.5s ease-in-out 0s;
+  -o-transition: all 0.5s ease-in-out 0s;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+p {
+    margin: 25px 0;
+    padding: 0;
+    font-size: 15px;
+    color: #999999;
+    line-height: 28px;
+}
+
+::selection {
+    background: black;
+    color: #fff;
+  }
+
+  .section-title {
+    margin-bottom: 70px;
+  }
+  
+  .section-title h2 {
+    font-size: 25px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+
+  .paddsection {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+
+/*----------------------------------------------------------------------------------*/
+/* Dark Mode Swich */
+/* --------------------------------------------------------------------------- */
+
+.switch {
+  font-weight: 400;
+  color: #FFF0F5;
+  padding-right: 10px;
+  align-self: flex-end;
+  /* align-self: flex-end; */
+  margin: 0.9375rem;
+}
+.inner-switch {
+  display: inline-block;
+  cursor: pointer;
+  border: 1px solid #555;
+  border-radius: 1.25rem;
+  width: 3.125rem;
+  text-align: center;
+  font-size: 1rem;
+  padding: 0.1875rem;
+  margin-left: 0.3125rem;
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+/*  Navbar Top
+/*-----------------------------------------------------------------------------------*/
+
+nav {
+    position: fixed;
+    background: #fff;
+    z-index: 1000;
+    width: 100%;
+    padding: 10px;
+    display: none;
+    -webkit-box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.18);
+  -moz-box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.18);
+  box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.18);
+  }
+
+  .nav-menu {
+    float: right;
+    line-height: 32px;
+    margin-bottom: 0;
+    padding-top: 36px;
+  }
+
+  nav ul li {
+    float: left;
+    margin-right: 15px;
+    font-family: 'Anime Ace 2.0 BB';
+    font-size: 14px;
+    margin-left: 40px;
+  }
+
+  nav ul li a {
+    padding: 2px 0 0 0;
+    position: relative;
+    display: block;
+    font-size: 14px;
+    color: #999999;
+    font-family: 'Anime Ace 2.0 BB';
+    font-weight: 500;
+    line-height: 22px;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+  }
+
+.logo {
+    float: left;
+    /* padding-right: 10px; */
+  }
+  .logo img {
+    width: 100px;
+    height: 50px;
+  }
+  
+  .responsive {
+    display: none;
+    font-size: 23px;
+  }
+  
+  .active {
+    color: #afafaf;
+  }
+
+  
+/*----------------------------------------------------------------------------------*/
+/*  Header
+/*-----------------------------------------------------------------------------------*/
+
+#header {
+    background: url("../images/bg2.jpg") repeat scroll center center / cover;
+    height: 100vh;
+    width: 100%;
+    /* font-family: 'Anime Ace 2.0 BB'; */
+  }
+
+  #header .header-content {
+    /* font-family: 'Anime Ace 2.0 BB'; */
+    height: 100vh;
+    text-align: left;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .header-content h3 {
+    font-family: 'Anime Ace 2.0 BB';
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: #379683;
+  }
+  #header .typed{
+    color: 	#FF7F50;
+    font-size: 1em;
+    font-family: 'Anime Ace 2.0 BB';
+  }
+  .header-content p {
+    font-family: 'Anime Ace 2.0 BB';
+    font-size: 15px;
+    letter-spacing: 2px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+    color: #fff;
+    font-weight: 500;
+  }
+
+  .header-content .list-social li {
+    float: left;
+    margin-right: 20px;
+  }
+  
+  .header-content .list-social li i {
+    color: #FFF0F5;
+    font-size: 25px;
+  }
+
+  /*-----------------------------------------------------------------------------------*/
+/*  About-us ----1
+/*-----------------------------------------------------------------------------------*/
+
+/* #about {
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    width: 100%;
+    height: auto;
+    background: #FFFAF0;
+    padding-top: 190px;
+  }
+
+  #about .card{
+    top: 50%;
+    left: 50%;
+    transform: translate(0%, -20%);
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    perspective: 600px;
+    transition: 0.5s;
+  }
+
+  #about .card .front{
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: #000;
+      backface-visibility: hidden;
+      transform: rotateX(0deg);
+      transition: 0.5s;
+  }
+
+  #about .card:hover .front{
+    transform: rotateX(-180deg);
+  }
+
+  #about .card .back{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background: #000;
+    backface-visibility: hidden;
+    transform: rotateX(180deg);
+    transition: 0.5s;
+
+  }
+  #about .card .back:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -50%;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.1);
+  }
+  
+  #about .card:hover .back{
+    transform: rotateX(0deg);
+  }
+
+  #about .back .details{
+    position: absolute;
+    top: 50%;
+    transform: translate(-5%, -50%);
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  #about .back .details h2{
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    color: #fff;
+  }
+
+  #about .back .details h2 span{
+    padding-top: 15px;
+    color: #a7a7a7;
+    font-size: 28px;    
+  }
+
+  #about .social-icons a{
+      padding-top: 10px;
+      display: inline-block;
+      width: 30px;
+      height: 30px;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 30%;
+      transition: 0.5s;
+  }
+
+  #about .social-icons a .fa{
+    line-height: 30px;
+}
+
+
+  #about .div-img-bg {
+    padding-bottom: 30px;
+    border: 20px solid #b8a07e;
+  }
+  
+  #about .about-img img {
+    position: absolute;
+    width: 100%;
+    box-shadow: 0px 0px 85px 0px rgba(0, 0, 0, 0.14);
+    height: 400px;
+    object-fit: cover;
+  }
+  
+  #about .about-descr .p-heading {
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    text-align: left;
+  }
+  
+  #about .about-descr .separator {
+    max-width: 80%;
+    margin-bottom: 0;
+    text-align: left;
+  }
+
+ */
+
+
+ /*-----------------------------------------------------------------------------------*/
+/*  About us------2
+/*-----------------------------------------------------------------------------------*/
+
+#about {
+  margin: 0;
+  padding: 0;
+  font-family: 'Anime Ace 2.0 BB', sans-serif;
+  width: 100%;
+  height: auto;
+  background: #FFFAF0;
+  padding-top: 190px;
+}
+
+#about .card{
+  top: 50%;
+  left: 50%;
+  transform: translate(0%, -20%);
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  /* transform: perspective(1000px); */
+  /* perspective: 600px; */
+  transition: 1s;
+  box-shadow: inset 300px 0 50px rgba(0, 0, 0, 0.5);
+}
+
+#about .card:hover{
+  transform: perspective(2000px) rotate(-10deg);
+  box-shadow: inset 20px 0 50px rgba(0, 0, 0, 0.5);
+}
+
+#about .card .about-img{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  transform-origin: left;
+  z-index: 1;
+  transition: 1s;
+}
+
+#about .card:hover .about-img{
+  transform: rotateY(-135deg);
+}
+/* #about .card .front{
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #000;
+    backface-visibility: hidden;
+    transform: rotateX(0deg);
+    transition: 0.5s;
+}
+
+#about .card:hover .front{
+  transform: rotateX(-180deg);
+}*/
+
+#about .card .back{
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background: #000;
+  backface-visibility: hidden;
+  transform: rotateX(180deg);
+  transition: 0.5s;
+
+}
+#about .card .back:before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -50%;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+#about .card:hover .back{
+  transform: rotateX(0deg);
+} 
+
+#about .back .details{
+  position: absolute;
+  top: 50%;
+  transform: translate(-5%, -50%);
+  left: 0;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+#about .back .details h2{
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  color: #fff;
+}
+
+#about .back .details h2 span{
+  padding-top: 15px;
+  color: #a7a7a7;
+  font-size: 28px;    
+}
+
+#about .social-icons a{
+    padding-top: 10px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 30%;
+    transition: 0.5s;
+}
+
+#about .social-icons a .fa{
+  line-height: 30px;
+}
+
+
+#about .div-img-bg {
+  padding-bottom: 30px;
+  border: 20px solid #b8a07e;
+}
+
+#about .about-img img {
+  position: absolute;
+  width: 100%;
+  box-shadow: 0px 0px 85px 0px rgba(0, 0, 0, 0.14);
+  height: 400px;
+  object-fit: cover;
+}
+
+#about .about-descr .p-heading {
+  font-family: 'Playfair Display', serif;
+  font-size: 28px;
+  text-align: left;
+}
+
+#about .about-descr .separator {
+  max-width: 80%;
+  margin-bottom: 0;
+  text-align: left;
+}
+
+
+  /*-----------------------------------------------------------------------------------*/
+/*  Portfolio
+/*-----------------------------------------------------------------------------------*/
+
+#portfolio {
+    position: relative;
+    padding-bottom: 50px;
+    background: #FFF0F5;
+  }
+
+  #portfolio h2{
+    font-family: 'Anime Ace 2.0 BB';
+    color: #303c6c;
+  }
+  
+  #portfolio .portfolio-list {
+    margin-bottom: 50px;
+  }
+  
+  #portfolio .portfolio-list .nav {
+    display: inline-block;
+    margin: 0;
+  }
+  
+  #portfolio .portfolio-list .nav li {
+    margin: 0 40px 0 0;
+    float: left;
+    font-size: 14px;
+    color: #999999;
+    line-height: 16px;
+    cursor: pointer;
+    font-family: 'Anime Ace 2.0 BB', helvetica;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    -moz-transition: all 0.5s ease-in-out 0s;
+  -ms-transition: all 0.5s ease-in-out 0s;
+  -o-transition: all 0.5s ease-in-out 0s;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+  }
+  
+  #portfolio .portfolio-list .nav li:hover, #portfolio .portfolio-list .nav li.filter-active  {
+    color: white;
+    -moz-transition: all 0.5s ease-in-out 0s;
+  -ms-transition: all 0.5s ease-in-out 0s;
+  -o-transition: all 0.5s ease-in-out 0s;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+  }
+  
+  #portfolio .portfolio-container {
+    display: inline-block;
+    margin-bottom: 50px;
+    width: 100%;
+  }
+  
+  .portfolio-thumbnail {
+    margin-bottom: 30px;
+    overflow: hidden;
+    min-height: 260px;
+  }
+  
+  .portfolio-thumbnail img {
+    /* max-width: 100%; */
+    height: 100%;
+    width: 100%;
+  }
+
+
+
+
+  /*-----------------------------------------------------------------------------------*/
+/*  Read
+/*-----------------------------------------------------------------------------------*/
+
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap') */
+
+#read {
+  margin: 0;
+  padding: 0;
+  font-family: 'Anime Ace 2.0 BB';
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;  
+  /* align-items: center; */
+  min-height: 100vh;
+  /* background: #ebf5fc; */
+  background: #333;
+}
+
+
+#read .container-fluid{
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  /* width: 500px; */
+}
+.container-fluid .card{
+  /* background: #ebf5fc; */
+  background: #333;
+  width: 320px;
+  margin: 20px;
+  padding: 40px 30px;
+  border-radius: 40px;
+
+  box-shadow: -6px -6px 10px rgba(0, 0, 0, 0.05),
+               6px 6px 20px rgba(0, 0, 0, 0.05);
+  /* box-shadow: -6px -6px 20px rgba(255, 255, 255, 1),
+              6px 6px 20px rgba(0, 0, 0, 0.1); */
+  
+
+}
+
+.container-fluid .card:hover{
+  /* box-shadow: inset -6px -6px 10px rgba(255, 255, 255, 0.5),
+              inset 6px 6px 20px rgba(0, 0, 0, 0.05); */
+  box-shadow: inset -6px -6px 10px rgba(0, 0, 0, 0.05),
+              inset 6px 6px 20px rgba(0, 0, 0, 0.05);
+}
+
+.container-fluid .card .imgBx {
+  position: relative;
+  text-align: center;
+}
+
+.container-fluid .card .imgBx img{
+  max-width: 120px;
+}
+
+.container-fluid .card .contentBx{
+  position: relative;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.container-fluid .card .contentBx h2{
+  font-weight: 600;
+  font-size: 1.6em;
+  letter-spacing: 2px;
+  color: #32a3b1;
+}
+
+.container-fluid .card .contentBx p{
+  font-size: 0.8em;
+  color: #32a3b1;
+}
+
+.container-fluid .card .contentBx a{
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 15px;
+  border-radius: 40px;
+  color: #32a3b1;
+  font-size: 10px;
+  text-decoration: none;
+  /* box-shadow: -4px -4px 15px rgba(255, 255, 255, 1),
+  4px 4px 15px rgba(0, 0, 0, 0.1); */
+  box-shadow: -4px -4px 15px rgba(0, 0, 0, 0.1),
+  4px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.container-fluid .card .contentBx a:hover{
+  /* box-shadow: inset -4px -4px 10px rgba(255, 255, 255, 0.5),
+              inset 4px 4px 10px rgba(0, 0, 0, 0.1); */
+  box-shadow: inset -4px -4px 10px rgba(0, 0, 0, 0.1),
+              inset 4px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.container-fluid .card .contentBx a:hover span{
+  display: block;
+  transform: scale(0.98);
+}
+
+.container-fluid .card:hover .imgBx,
+.container-fluid   .card:hover .contentBx{
+  transform: scale(0.98);
+}
+
+
+
+
+  
+  /*-----------------------------------------------------------------------------------*/
+/*  Footer
+/*-----------------------------------------------------------------------------------*/
+
+#footer {
+  background: #FFFAF0;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#footer .socials-media {
+  width: 100%;
+}
+
+#footer .socials-media ul {
+  display: inline-block;
+  float: none;
+  margin: 0 0 20px 0;
+}
+
+#footer .socials-media ul li {
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#footer .socials-media ul li a {
+  font-size: 24px;
+  color: #999;
+  letter-spacing: 0.1em;
+  font-weight: 500;
+  background: transparent;
+  text-transform: uppercase;
+  -moz-transition: all 0.5s ease-in-out 0s;
+  -ms-transition: all 0.5s ease-in-out 0s;
+  -o-transition: all 0.5s ease-in-out 0s;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+#footer .socials-media ul li a:hover {
+  color: #b8a07e;
+  -moz-transition: all 0.5s ease-in-out 0s;
+  -ms-transition: all 0.5s ease-in-out 0s;
+  -o-transition: all 0.5s ease-in-out 0s;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+#footer p {
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  font-weight: 500;
+  margin-top: 0;
+  text-transform: uppercase;
+}
+
+
+
+.dark,
+.dark * {
+    background-color: #222;
+    color: #e6e6e6;
+    border-color: #e6e6e6;
+}
